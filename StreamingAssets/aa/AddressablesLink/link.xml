@@ -1,0 +1,135 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Audio.SingleAudioPlayer" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Abilities.Items.Traps.GasTrapActionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Abilities.Items.Traps.IceTrapActionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Abilities.Items.Traps.SnapTrapActionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Actions.Items.Traps.EnergyCannonActionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Actions.Items.Traps.StunCannonActionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.AnimalActionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.AnimalUnit" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleNoise.BattleNoiseModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleNoise.SonicRipple" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleUnitAttackModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleUnitCorpseModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleUnitMovementModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleUnitPassiveAbilityModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleUnitRotationModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleUnitTurnModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.BattleUnitVisionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.FrameAnimatorCannon" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.FrameAnimatorTrap" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.FrameAnimatorUnit" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.PoacherActionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.PoacherUnit" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.SpriteBillboard" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Traps.BattleTrap" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Traps.BattleTrapBlueprint" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Traps.CannonProjectile" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Traps.CannonTrapVisionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Traps.TrapBlueprintRotationModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Traps.TrapRotationModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.Traps.TrapVisionModule" preserve="all" />
+    <type fullname="BattleLogic.BattleUnits.UnitTriggerModule" preserve="all" />
+    <type fullname="BattleLogic.FogOfWar.FogReceiver" preserve="all" />
+    <type fullname="BattleLogic.FogOfWar.FoliageFogCaster" preserve="all" />
+    <type fullname="BattleLogic.FogOfWar.TileFogCaster" preserve="all" />
+    <type fullname="BattleLogic.FogOfWar.TileFogEntity" preserve="all" />
+    <type fullname="BattleLogic.Map.BattleMapSelectableTile" preserve="all" />
+    <type fullname="BattleLogic.Map.BattleMapTileView" preserve="all" />
+    <type fullname="BattleLogic.Map.Foliage.FoliageGroupRandomizer" preserve="all" />
+    <type fullname="BattleLogic.Map.Foliage.FoliageSingleRandomizer" preserve="all" />
+    <type fullname="BattleLogic.Map.Foliage.FoliageSpriteBillboard" preserve="all" />
+    <type fullname="BattleLogic.Map.Foliage.FoliageTreeSpriteFogPainter" preserve="all" />
+    <type fullname="BattleLogic.Map.Foliage.FoliageView" preserve="all" />
+    <type fullname="BattleLogic.Map.OnTileHologramEmblem" preserve="all" />
+    <type fullname="BattleLogic.UI.StatusTexts.UnitPopupEmitter" preserve="all" />
+    <type fullname="Configs.AnimationDrawer.AnimationSpriteSequenceConfig" preserve="all" />
+    <type fullname="Configs.AnimationDrawer.CannonSpriteSequenceConfig" preserve="all" />
+    <type fullname="Configs.AnimationDrawer.PoacherSpriteSequenceConfig" preserve="all" />
+    <type fullname="Configs.AnimationDrawer.PoacherSpriteSheetFrameConfig" preserve="all" />
+    <type fullname="Configs.AnimationDrawer.SpriteSheetFrameConfig" preserve="all" />
+    <type fullname="Configs.AnimationDrawer.TrapSpriteSequenceConfig" preserve="all" />
+    <type fullname="Configs.AnimationDrawer.TrapSpriteSheetFrameConfig" preserve="all" />
+    <type fullname="Configs.AudioListData" preserve="all" />
+    <type fullname="Configs.BattleLogic.AIBehaviour.AIConfigHolder" preserve="all" />
+    <type fullname="Configs.BattleLogic.AIBehaviour.CarnivoreAIConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.AIBehaviour.HerbivoreAIConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.AIBehaviour.OmnivoreAIConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.AIBehaviour.PoacherAIConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.AnimalPrefabListConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.BattleAnimationParamConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.BattleNoiseConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.FoliageListConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.PoacherPrefabListConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.TileListConfig" preserve="all" />
+    <type fullname="Configs.BattleLogic.TrapPrefabListConfig" preserve="all" />
+    <type fullname="Configs.CharacterCreator.CharacterCreatorPortraitConfig" preserve="all" />
+    <type fullname="Configs.IconListData" preserve="all" />
+    <type fullname="BattleLogic.Map.Foliage.FoliageGroupRandomizer/PossibleSpritesCategory" preserve="nothing" serialized="true" />
+    <type fullname="Configs.AnimationDrawer.AnimationSpriteSequenceConfig/FrameInSequenceEntry" preserve="nothing" serialized="true" />
+    <type fullname="Configs.AnimationDrawer.AnimationSpriteSequenceConfig/FrameSequence" preserve="nothing" serialized="true" />
+    <type fullname="Configs.AnimationDrawer.AnimationSpriteSequenceConfig/FrameSequenceWithDelays" preserve="nothing" serialized="true" />
+    <type fullname="Configs.BattleLogic.AnimalPrefabListConfig/AnimalDataEntry" preserve="nothing" serialized="true" />
+    <type fullname="Configs.BattleLogic.FoliageListConfig/FoliageData" preserve="nothing" serialized="true" />
+    <type fullname="Configs.BattleLogic.FoliageListConfig/FoliageVariant" preserve="nothing" serialized="true" />
+    <type fullname="Configs.BattleLogic.PoacherPrefabListConfig/PoacherDataEntry" preserve="nothing" serialized="true" />
+    <type fullname="Configs.BattleLogic.TileListConfig/TileData" preserve="nothing" serialized="true" />
+    <type fullname="Configs.BattleLogic.TileListConfig/TileVariant" preserve="nothing" serialized="true" />
+    <type fullname="Configs.CharacterCreator.CharacterCreatorPortraitConfig/BodyPartOptionColor" preserve="nothing" serialized="true" />
+    <type fullname="Configs.CharacterCreator.CharacterCreatorPortraitConfig/PortraitPartOption" preserve="nothing" serialized="true" />
+    <type fullname="Configs.CharacterCreator.CharacterCreatorPortraitConfig/PortraitTypeEntry" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="Zenject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Zenject.ZenAutoInjecter" preserve="all" />
+  </assembly>
+  <assembly fullname="AYellowpaper.SerializedCollections">
+    <type fullname="AYellowpaper.SerializedCollections.SerializedDictionary`2[Database.AssetLibrary.TrapLibrary/TrapType,BattleLogic.BattleUnits.Traps.BattleTrap]" preserve="nothing" serialized="true" />
+    <type fullname="AYellowpaper.SerializedCollections.SerializedDictionary`2[Database.AssetLibrary.TrapLibrary/TrapType,BattleLogic.BattleUnits.Traps.BattleTrapBlueprint]" preserve="nothing" serialized="true" />
+    <type fullname="AYellowpaper.SerializedCollections.SerializedDictionary`2[System.String,UnityEngine.AudioClip]" preserve="nothing" serialized="true" />
+    <type fullname="AYellowpaper.SerializedCollections.SerializedDictionary`2[System.String,UnityEngine.Sprite]" preserve="nothing" serialized="true" />
+    <type fullname="AYellowpaper.SerializedCollections.SerializedKeyValuePair`2[Database.AssetLibrary.TrapLibrary/TrapType,BattleLogic.BattleUnits.Traps.BattleTrap]" preserve="nothing" serialized="true" />
+    <type fullname="AYellowpaper.SerializedCollections.SerializedKeyValuePair`2[Database.AssetLibrary.TrapLibrary/TrapType,BattleLogic.BattleUnits.Traps.BattleTrapBlueprint]" preserve="nothing" serialized="true" />
+    <type fullname="AYellowpaper.SerializedCollections.SerializedKeyValuePair`2[System.String,UnityEngine.AudioClip]" preserve="nothing" serialized="true" />
+    <type fullname="AYellowpaper.SerializedCollections.SerializedKeyValuePair`2[System.String,UnityEngine.Sprite]" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
